@@ -1,1 +1,3 @@
-# ClusteringAlgorithms
+# Clustering algorithms
+
+# Repository contents
