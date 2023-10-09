@@ -10,6 +10,13 @@ Follow [this link](https://drive.google.com/file/d/1v8tzI5zChFRS1BJqkYvSlWKyGXfO
 
 # Samples
 
-#### Dataset
+## Dataset
 
 The training and testing datasets were taken from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/), using the [Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris).
+
+The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is linearly separable from the other 2; the latter are not linearly separable from each other.
+
+## Analysis
+
+We have histograms for each training set attribute value:
+image[]
