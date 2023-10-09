@@ -20,12 +20,36 @@ The data set contains 3 classes of 50 instances each, where each class refers to
 
 We have histograms for each training set attribute value:
 
-![image_1](https://github.com/Nekhocheninov/ClusteringAlgorithms/blob/main/K_means/img/img_1.PNG)
+<img src="https://github.com/Nekhocheninov/ClusteringAlgorithms/blob/main/K_means/img/img_1.PNG" width="800">
 
-We can also match the attributes of the training dataset:
+We can also compare the attributes of the training dataset:
 
-![image_2](https://github.com/Nekhocheninov/ClusteringAlgorithms/blob/main/K_means/img/img_2.png)
+<img src="https://github.com/Nekhocheninov/ClusteringAlgorithms/blob/main/K_means/img/img_2.PNG" width="800">
 
 Based on the previous image, we can observe a clearly separable class.
 
-Iris-setosa is linearly separable from the other two classes; Iris-versicolor and Iris-virginica are not linearly separable.
+Iris-setosa is linearly separable from the other two classes; Iris-versicolor and Iris-virginica are not linearly separable (blue - Iris-setosa, red - Iris-versicolor, green - Iris-virginica):
+
+<img src="https://github.com/Nekhocheninov/ClusteringAlgorithms/blob/main/K_means/img/img_3.PNG" width="800">
+
+Let's find cluster centers using our code:
+
+<img src="https://github.com/Nekhocheninov/ClusteringAlgorithms/blob/main/K_means/img/img_4.PNG" width="800">
+
+Comparison of sepal_width and sepal_length attributes does not make it possible to uniquely determine the cluster centers, as shown in the previous figure.
+
+Accuracy table for 5 test algorithm:
+
+| № |	sepal_width-sepal_length |	petal_width-petal_length |
+|---|---|---|
+|1 |	***0.53(3)*** |	0,96(6) |
+|2 |	0.3(3) |	0.95 |
+|3 |	0.3(3) |	***0.983(3)*** |
+|4 |	0.3083(3) |	0.475 |
+|5 |	0.0416(6) |	0.63(3) |
+
+The best clustering result was obtained when comparing the petal_width-petal_length attributes.
+
+### Conclusion
+
+The k-means algorithm is iterative. The number of iterations of the algorithm is generally not fixed and depends on the initial location of objects in space; the number of clusters k is an input parameter; as well as on the initial approximation of the centers of clusters. Also, if the initial parameters are not selected successfully, the iterative process can converge to the local optimum. For these reasons, the algorithm is not deterministic and robust.
