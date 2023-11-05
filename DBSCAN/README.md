@@ -1,14 +1,16 @@
 # Python DBSCAN
 
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-Open-blue?logo=google-colab)](https://drive.google.com/file/d/1E2iCzuglv7Kz77-hEx0eq_tHeP3iZZNK/view?usp=sharing)
+
 [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) clustering algorithm implementation in Python.
 
-### Running the notebook
+## Running the notebook
 
 The code was written in Python across Jupyter notebooks. It was developed in Google Colab which is a free Jupyter notebook environment that allows you to run code through a browser.
 
 Follow [this link](https://drive.google.com/file/d/1E2iCzuglv7Kz77-hEx0eq_tHeP3iZZNK/view?usp=sharing) to open the notepad with this code and click on Google Colaboratory.
 
-# Samples
+## Samples
 
 ### Dataset
 
